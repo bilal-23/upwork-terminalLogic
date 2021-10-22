@@ -1,6 +1,6 @@
 var chart = LightweightCharts.createChart(document.getElementById('visual'), {
 	width: 1650,
-  	height: 650,
+	height: 650,
 	layout: {
 		backgroundColor: '#000000',
 		textColor: 'rgba(255, 255, 255, 0.9)',
@@ -28,7 +28,7 @@ var chart = LightweightCharts.createChart(document.getElementById('visual'), {
 
 var candleSeries = chart.addCandlestickSeries({
 	upColor: '#00ff00',
-	downColor: '#ff0000', 
+	downColor: '#ff0000',
 	borderDownColor: '#FFFFFF',
 	borderUpColor: '#FFFFFF',
 	wickDownColor: '#ff0000',
@@ -46,7 +46,7 @@ fetch('http://localhost:5000/history')
 
 var binanceSocket = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@kline_1m");
 
-binanceSocket.onmessage = function (event) {	
+binanceSocket.onmessage = function (event) {
 	var message = JSON.parse(event.data);
 
 	var candlestick = message.k;

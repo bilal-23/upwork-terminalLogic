@@ -4,7 +4,7 @@ footer {
   text-align: center;
   font-size: 1.2rem;
   opacity: 0.6;
-  padding: 5rem 0rem 1rem 0rem;
+  padding: 1rem 0rem 1rem 0rem;
   text-transform: uppercase;
   letter-spacing: 7px;
   color: white;
@@ -15,4 +15,5 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  margin-top: 3rem;
 }

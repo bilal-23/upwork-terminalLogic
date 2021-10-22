@@ -17,7 +17,7 @@
 .api_instructions {
   background-color: rgb(19, 23, 34);
   color: white;
-  height: 90vh;
+  /* height: 90vh; */
   display: flex;
   flex-direction: column;
   padding: 1.25rem;
@@ -41,9 +41,7 @@
   width: 100%;
   padding: 5rem;
 }
-footer {
-  padding-top: 0rem !important;
-}
+
 @media only screen and (max-width: 700px) {
   .gistCont {
     padding: 0rem;
