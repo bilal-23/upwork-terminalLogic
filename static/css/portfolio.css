@@ -113,6 +113,9 @@
 }
 
 @media (max-width: 800px) {
+  .portfolio {
+    min-height: 78vh;
+  }
   .portfolio_table td:nth-child(4),
   .portfolio_table th:nth-child(4) {
     display: none;
@@ -144,8 +147,8 @@
     box-shadow: none;
     transform: translate3d(2px, -2px, 0);
   }
-  footer {
-    position: absolute !important;
+  /* footer {
+    position: fixed !important;
     bottom: 0;
-  }
+  } */
 }
