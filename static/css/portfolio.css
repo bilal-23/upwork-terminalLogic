@@ -114,7 +114,7 @@
 
 @media (max-width: 800px) {
   .portfolio {
-    min-height: 78vh;
+    min-height: 90vh;
   }
   .portfolio_table td:nth-child(4),
   .portfolio_table th:nth-child(4) {
@@ -151,4 +151,9 @@
     position: fixed !important;
     bottom: 0;
   } */
+}
+@media (max-width: 600px) {
+  .portfolio {
+    min-height: 85vh;
+  }
 }
